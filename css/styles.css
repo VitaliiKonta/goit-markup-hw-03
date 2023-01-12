@@ -3,6 +3,8 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  width: 1440px;
+  outline: dashed tomato;
 }
 
 button {
@@ -45,9 +47,10 @@ ul {
 }
 
 /* ===========================HEADER================================ */
-.header-container {
+.nav-container {
   display: flex;
   align-items: center;
+  padding-left: ;
 }
 
 .logo-text {
@@ -58,7 +61,9 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-header-color);
+  margin-right: 76px;
 }
+/* тут правий марджин!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .blue-logo-text {
   color: var(--brand-color);
@@ -71,6 +76,7 @@ ul {
 .nav-item:not(:last-child) {
   margin-right: 40px;
 }
+/* тут правий марджин!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .nav-link {
   display: block;
@@ -90,6 +96,9 @@ ul {
   color: var(--brand-color);
 }
 
+.address {
+  margin-left: auto;
+}
 .adrdress-list {
   display: flex;
 }
