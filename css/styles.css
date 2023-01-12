@@ -8,6 +8,27 @@ body {
 button {
   cursor: pointer;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+.container {
+  width: 1158px;
+  outline: solid tomato;
+}
+/* -----------------------outline shpuld be deleted later!! */
+
 .link {
   text-decoration: none;
 }
@@ -24,6 +45,10 @@ button {
 }
 
 /* ===========================HEADER================================ */
+.header-container {
+  display: flex;
+  align-items: center;
+}
 
 .logo-text {
   font-family: "Raleway";
@@ -38,22 +63,43 @@ button {
 .blue-logo-text {
   color: var(--brand-color);
 }
+.nav-menu {
+  display: flex;
+}
+.nav-item {
+}
+.nav-item:not(:last-child) {
+  margin-right: 40px;
+}
 
 .nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
+  outline: solid brown;
 }
 .nav-link:hover,
 .nav-link:focus {
   color: var(--brand-color);
 }
 
+.adrdress-list {
+  display: flex;
+}
+.adrdress-list > .adrdress-item + .adrdress-item {
+  margin-left: 40px;
+}
 .address-link {
   font-style: normal;
   color: #434455;
+  outline: solid brown;
 }
 
 .address-link:hover,
