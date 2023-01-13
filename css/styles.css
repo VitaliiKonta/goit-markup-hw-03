@@ -116,6 +116,8 @@ ul {
 .address-link {
   font-style: normal;
   color: #434455;
+  padding-top: 24px;
+  padding-bottom: 24px;
   outline: solid brown;
 }
 
@@ -158,11 +160,11 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding-bottom: 48px;
+
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-
+  margin-bottom: 48px;
   color: #ffffff;
 }
 .hero-btn {
@@ -215,7 +217,10 @@ ul {
 /* ==============================WHAT WE ARE DOING========================= */
 .about-list {
   display: flex;
+  /* flex-wrap: wrap;
+    column-gap: 24px; */
   justify-content: center;
+  padding-bottom: 120px;
 }
 .about-item:not(:last-child) {
   margin-right: 24px;
@@ -231,6 +236,11 @@ ul {
   margin-bottom: 72px;
 }
 /* ==============================OUR TEAM========================= */
+.team-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -243,6 +253,8 @@ ul {
 
 .team-container-list {
   display: flex;
+  /* flex-wrap: wrap;
+  gap: 24px; */
 }
 
 .team-container-item:not(:last-child) {
@@ -290,7 +302,13 @@ ul {
 }
 /* +++++++++++++++++++++++++++++++++========================PORTFOLIO-PAGE========================================+++++++++++++++++++ */
 /* ==============================BUTTONS========================= */
-.portfolio-btn {
+.portfolio-btn-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-list .portfolio-btn {
   background: #f4f4fd;
 }
 
