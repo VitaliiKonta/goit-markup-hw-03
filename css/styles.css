@@ -51,6 +51,10 @@ ul {
 }
 
 /* ===========================HEADER================================ */
+
+.header-container {
+  border-bottom: 2px solid #e7e9fc;
+}
 .nav-container {
   display: flex;
   align-items: center;
@@ -183,6 +187,18 @@ ul {
 }
 
 /* ==============================BENEFITS========================= */
+.benefits-item-list {
+  display: flex;
+}
+.benefits-container {
+  /* padding-right: 0px;
+  padding-left: 0px; */
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.benefits-item:not(:last-child) {
+  margin-right: 24px;
+}
 
 .benefits-title {
   font-weight: 500;
@@ -197,6 +213,13 @@ ul {
   letter-spacing: 0.02em;
 }
 /* ==============================WHAT WE ARE DOING========================= */
+.about-list {
+  display: flex;
+  justify-content: center;
+}
+.about-item:not(:last-child) {
+  margin-right: 24px;
+}
 .about-title {
   font-weight: 700;
   font-size: 36px;
@@ -204,6 +227,8 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-header-color);
+  text-align: center;
+  margin-bottom: 72px;
 }
 /* ==============================OUR TEAM========================= */
 .team-title {
@@ -213,8 +238,16 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-header-color);
+  text-align: center;
 }
 
+.team-container-list {
+  display: flex;
+}
+
+.team-container-item:not(:last-child) {
+  margin-right: 24px;
+}
 .team-title-name {
   font-weight: 500;
   font-size: 20px;
@@ -222,12 +255,14 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-header-color);
+  text-align: center;
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /* ==============================FOOTER========================= */
