@@ -304,7 +304,6 @@ ul {
 /* ==============================BUTTONS========================= */
 .portfolio-btn-list {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 96px;
@@ -318,11 +317,12 @@ ul {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
+}
+
+.portfolio-btn-item:not(:last-child) {
   margin-right: 24px;
 }
-/* .portfolio-btn:last-child {
-  margin-right: 0;
-} */
+
 .portfolio-btn-text {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
