@@ -306,12 +306,23 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  margin-top: 96px;
+  margin-bottom: 72px;
+  /* margin-right: auto;
+  margin-left: auto; */
 }
 
-.btn-list .portfolio-btn {
+.portfolio-btn {
   background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 12px 24px;
+  margin-right: 24px;
 }
-
+/* .portfolio-btn:last-child {
+  margin-right: 0;
+} */
 .portfolio-btn-text {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
